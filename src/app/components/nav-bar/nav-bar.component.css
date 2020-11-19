@@ -1,0 +1,25 @@
+#GrandPoobah {
+ color: RGB(255,181,49);
+ padding: 0px;   
+}
+
+.navbar-light{
+    background-color:RGB(64,139,239);
+}
+
+.nav-item{
+    padding: 15px;
+}
+
+.nav-link{
+    border-radius: 5px;
+}
+
+a:link {
+    background-color: RGB(255,181,49);
+    text-decoration: none;          /* gets rid of automatic underlining for links */
+}
+
+a:hover {
+    background-color: RGB(255,181,49);
+  }
