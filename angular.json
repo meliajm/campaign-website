@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "campaign-website"
+    }
+  },
+  "defaultProject": "campaign-website",
+  "cli": {
+    "analytics": "b21d76eb-83ea-4fff-a305-b522cf1658d9"
+  }
 }
