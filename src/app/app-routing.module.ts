@@ -10,7 +10,7 @@ const routes: Routes = [
     path: '',
     component: LandingPageComponent
   },
-  {
+   {
     path: 'bio',
     component: BioComponent
   },
@@ -19,7 +19,7 @@ const routes: Routes = [
     component: ContactComponent
   },
   {
-    path: 'issues',
+    path: 'issue',
     component: IssueComponent
   }
 ];
