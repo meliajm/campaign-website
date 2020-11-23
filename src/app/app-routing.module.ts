@@ -3,7 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { BioComponent } from './components/bio/bio.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { IssueComponent } from './components/issue/issue.component';
-<<<<<<< HEAD
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 
 const routes: Routes = [
@@ -12,16 +11,6 @@ const routes: Routes = [
     component: LandingPageComponent
   },
   {
-=======
-// import { NavBarComponent } from './components/nav-bar/nav-bar.component';
-
-const routes: Routes = [
-  // {
-  //   path: '',
-  //   component: NavBarComponent
-  // },
-   {
->>>>>>> 63feb4fa794ce0c39622c38be6b9d27a32ab616f
     path: 'bio',
     component: BioComponent
   },
@@ -30,11 +19,7 @@ const routes: Routes = [
     component: ContactComponent
   },
   {
-<<<<<<< HEAD
     path: 'issues',
-=======
-    path: 'issue',
->>>>>>> 63feb4fa794ce0c39622c38be6b9d27a32ab616f
     component: IssueComponent
   }
 ];
