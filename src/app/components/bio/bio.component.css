@@ -1,3 +1,28 @@
+.intro {
+  font-family: 'Lucida Sans';
+  font-size: xx-large;
+/*  background-color: RGB(64,139,239);*/
+  padding: 80px;
+  border: unset;
+  position: center;
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+}
+#imgBio {
+  float: left;
+  margin-right: 10px;
+  clear: both;
+  height: 240px;
+  width: 270px;
+  padding-left:30px;
+}
+#Bio{
+  margin-left: 10px;
+  overflow: auto;
+  display: block;
+  position:relative;
+}
 * {
   box-sizing: border-box;
 }
