@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { BioComponent } from './components/bio/bio.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { IssueComponent } from './components/issue/issue.component';
