@@ -20,7 +20,7 @@ const routes: Routes = [
     component: ContactComponent
   },
   {
-    path: 'issue',
+    path: 'issues',
     component: IssueComponent
   },
   {
