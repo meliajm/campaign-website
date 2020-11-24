@@ -10,6 +10,7 @@ import { IssueComponent } from './components/issue/issue.component';
 import { BioComponent } from './components/bio/bio.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { GoalsComponent } from './components/goals/goals.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
     IssueComponent,
     BioComponent,
     ContactComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    GoalsComponent
   ],
   imports: [
     BrowserModule,
