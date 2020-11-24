@@ -19,9 +19,9 @@
 }
 #Bio{
   margin-left: 10px;
-  overflow: auto;
+  /* overflow: auto;
   display: block;
-  position:relative;
+  position:relative; */
 }
 * {
   box-sizing: border-box;
