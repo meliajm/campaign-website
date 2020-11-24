@@ -18,10 +18,10 @@
   padding-left:30px;
 }
 #Bio{
-  margin-left: 10px;
+  /* margin-left: 10px;
   overflow: auto;
   display: block;
-  position:relative;
+  position:relative; */
 }
 * {
   box-sizing: border-box;
