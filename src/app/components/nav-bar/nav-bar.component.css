@@ -1,6 +1,6 @@
-#GrandPoobah {
+#nav {
  color: RGB(255,181,49);
- padding: 0px;   
+ padding: 0px; 
 }
 
 .navbar-light{
@@ -22,4 +22,25 @@ a:link {
 
 a:hover {
     background-color: RGB(255,181,49);
-  }
+}
+
+header{
+    display: flex;
+    align-content: center;
+    height: 300px;
+}
+header img{
+    width: 300px;
+    height: 300px;
+}
+header div{
+    width: 100%;
+    overflow:hidden;
+    display: block;
+}
+header video{
+    width: 75%;
+    position: relative;
+    top: -210px;
+    margin-left: 50px;
+}

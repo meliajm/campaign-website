@@ -1,31 +1,31 @@
-<div ngbDropdown class="d-inline-block">
-    <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Toggle dropdown</button>
-    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-      <button ngbDropdownItem>Action - 1</button>
-      <button ngbDropdownItem>Another Action</button>
-      <button ngbDropdownItem>Something else is here</button>
+
+<header>
+    <img src="assets/headshot.jpg">
+    <div>
+        <video loop autoplay> 
+            <source src="assets/Logo.mp4" type="video/mp4">  
+        </video>
     </div>
-  </div>
-<div class="container-fluid" id="GrandPoobah">
+</header>
+<div class="container-fluid" id="nav">
     <nav class="navbar navbar-light navbar-expand-sm">
         <span class="nav-item">
             <a class="nav-link" routerLinkActive="active" routerLink="">Home</a>
         </span>
         <span class="nav-item">
-            <a  class="nav-link dropdown-toggle" routerLinkActive="active" routerLink="/bio">Bio</a>
-                <!-- dropdown: personal, education, career -->
+            <a  class="nav-link" routerLinkActive="active" routerLink="/bio">Bio</a>
         </span>
         <span class="nav-item">
-            <a  class="nav-link" routerLinkActive="active" routerLink="/issues">Issues</a>
-            <!-- dropdown: 1, 2, 3 -->
+            <a class="nav-link" routerLinkActive="active" routerLink="/goals">Goals</a>
         </span>
         <span class="nav-item">
-            <a  class="nav-link" routerLinkActive="active" routerLink="/contact">Contact</a>
-            <!-- volunteer, contact info  -->
+            <a class="nav-link" routerLinkActive="active" routerLink="/issues">Issues</a>
         </span>
-
+        <span class="nav-item">
+            <a class="nav-link" routerLinkActive="active" routerLink="/contact">Contact</a>
+        </span>
+        
         <a href="https://www.facebook.com/media/set/?vanity=JimenezforBerwyn4&set=a.138443928009196"><i class="fab fa-facebook-square"></i></a>
-    
     </nav>
 </div>
 
