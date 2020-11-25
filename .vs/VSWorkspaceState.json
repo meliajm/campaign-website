@@ -6,8 +6,9 @@
     "\\src\\app\\components",
     "\\src\\app\\components\\bio",
     "\\src\\app\\components\\contact",
+    "\\src\\app\\components\\nav-bar",
     "\\src\\assets"
   ],
-  "SelectedNode": "\\src\\assets\\jimenezfamily.jpg",
+  "SelectedNode": "\\src\\app\\app-routing.module.ts",
   "PreviewInSolutionExplorer": false
 }
