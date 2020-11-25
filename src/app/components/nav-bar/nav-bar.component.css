@@ -1,10 +1,9 @@
 #nav {
- color: RGB(255,181,49);
  padding: 0px; 
 }
 
 .navbar-light{
-    background-color:RGB(64,139,239);
+    background-color:rgb(64,139,239);
 }
 
 .nav-item{
@@ -12,17 +11,14 @@
     text-align: center;
 }
 
-.nav-link{
+.nav-item a:link {
+    background-color: rgb(255,181,49);
+    text-decoration: none;
     border-radius: 5px;
 }
 
-a:link {
-    background-color: RGB(255,181,49);
-    text-decoration: none;          /* gets rid of automatic underlining for links */
-}
-
-a:hover {
-    background-color: RGB(255,181,49);
+.nav-item a:hover {
+    background-color: rgb(255,181,49);
 }
 
 header{
@@ -40,8 +36,13 @@ header div{
     display: block;
 }
 header video{
-    width: 75%;
+    width: 700px;
     position: relative;
-    top: -210px;
+    top: -205px;
     margin-left: 50px;
+}
+
+.fa-facebook-square{
+    color: rgb(255,181,49);
+    font-size: 24px;
 }

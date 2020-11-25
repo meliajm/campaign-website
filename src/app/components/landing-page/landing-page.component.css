@@ -5,3 +5,16 @@
 #headers{
     color: white;
 }
+
+ngb-carousel{
+    overflow: hidden;
+    border: solid 5px;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+}
+ngb-carousel img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
