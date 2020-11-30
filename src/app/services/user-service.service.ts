@@ -19,7 +19,18 @@ export class UserServiceService {
   */
   public newUser(u : User) : Observable<User> {
     let jsonU = JSON.stringify(u);
-    return this.http.post(this.url + 'new', {jsonU}) as Observable<User>;
+    return this.http.post(this.url + 'users/new', {jsonU}) as Observable<User>;
+  }
+
+  public getUsers() : Observable<User[]>{
+    return this.http.get(this.url + 'users',{
+      headers : {
+        'Content-Type': 'application/json',
+      'Accept': 'application/json',
+      'Access-Control-Allow-Headers': 'Content-Type',
+      'Access-Control-Allow-Origin': '*'
+      }
+    }) as Observable<User[]>;
   }
 
 

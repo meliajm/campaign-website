@@ -9,16 +9,25 @@ import { UserServiceService } from 'src/app/services/user-service.service';
 })
 export class ContactComponent implements OnInit {
   formUser : User;
-
+  users : User[] = [] as User[];
   constructor(private userStuff : UserServiceService) {
 
    }
 
   ngOnInit(): void {
+    this.getAllUsers();
   }
 
   addUser(){
     
+  }
+
+  getAllUsers(){
+    this.userStuff.getUsers().subscribe((data)=>{
+      this.users = data;
+      console.log(data);
+      console.log(this.users);
+    })
   }
 
 }
