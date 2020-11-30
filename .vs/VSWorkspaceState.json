@@ -6,9 +6,11 @@
     "\\src\\app\\components",
     "\\src\\app\\components\\bio",
     "\\src\\app\\components\\contact",
+    "\\src\\app\\components\\goals",
+    "\\src\\app\\components\\landing-page",
     "\\src\\app\\components\\nav-bar",
     "\\src\\assets"
   ],
-  "SelectedNode": "\\src\\app\\app-routing.module.ts",
+  "SelectedNode": "\\src\\app\\components\\nav-bar\\nav-bar.component.html",
   "PreviewInSolutionExplorer": false
 }

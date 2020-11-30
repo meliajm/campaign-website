@@ -1,3 +1,12 @@
-* {
-  color:white;
+.issues-welcome {
+  color: white;
+  position: center;
+  background-image: url("src/assets/berwynTrain.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+.card-deck {
+  padding: 50px;
+}
+
