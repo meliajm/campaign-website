@@ -19,6 +19,7 @@
 }
 #Bio{
   margin-left: 10px;
+  position:sticky;
   /* overflow: auto;
   display: block;
   position:relative; */
@@ -26,6 +27,11 @@
 * {
   box-sizing: border-box;
 }
+
+
+
+
+
 
     .timeline-centered.timeline-sm .timeline-entry .timeline-entry-inner .timeline-label {
       padding: 1em;
