@@ -1,12 +1,22 @@
 .issues-welcome {
   color: white;
   position: center;
-  background-image: url("src/assets/berwynTrain.jpg");
+  background-image: url("src/assets/cityHall.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 15em;
 }
 .card-deck {
   padding: 50px;
 }
+h1 {
+  font-size: 85px;
+  width: 150%;
+  -webkit-text-stroke: .5px DarkGray;
+  text-align:  match-parent;
+}
 
+h5 {
+  text-align: center;
+}
