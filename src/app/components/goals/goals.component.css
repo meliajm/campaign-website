@@ -1,11 +1,17 @@
+* {
+  font-family:  'Lucida Sans Grande';
+}
+
 .issues-welcome {
   color: white;
   position: center;
-  background-image: url("src/assets/cityHall.jpg");
+  background: url("src/assets/cityHall.jpg") no-repeat top center fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 15em;
+  font-weight: bold;
+  font-weight: bold;
 }
 .card-deck {
   padding: 50px;
@@ -19,4 +25,10 @@ h1 {
 
 h5 {
   text-align: center;
+  text-decoration: solid;
+  font-weight: bold;
+}
+
+.cards {
+  position: sticky;
 }
