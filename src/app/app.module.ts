@@ -11,7 +11,7 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { GoalsComponent } from './components/goals/goals.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { IssueComponent } from './components/issue/issue.component';
-
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +25,8 @@ import { IssueComponent } from './components/issue/issue.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -19,8 +19,8 @@ export class UserServiceService {
   */
   public newUser(u : User) : Observable<User> {
     let jsonU = JSON.stringify(u);
-    return this.http.post(this.url + '/new', {jsonU}) as Observable<User>;
+    return this.http.post(this.url + 'new', {jsonU}) as Observable<User>;
   }
 
-  
+
 }
