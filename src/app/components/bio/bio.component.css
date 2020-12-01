@@ -1,13 +1,14 @@
 .intro {
   font-family: 'Lucida Sans';
   font-size: xx-large;
-/*  background-color: RGB(64,139,239);*/
+  /*  background-color: RGB(64,139,239);*/
   padding: 80px;
   border: unset;
   position: center;
-  color: white;
+  color: darkblue;
   position: -webkit-sticky;
   position: sticky;
+  background-color: rgba(255,255,255, 0.5);
 }
 #imgBio {
   float: left;
@@ -28,14 +29,20 @@
   box-sizing: border-box;
 }
 
+.container {
+/*  background-color: lightblue;
+*/  width: 800px;
+  height: 500px;
+  overflow: auto;
+  padding: 1em;
+  float: right;
+  margin: 15px;
+}
 
 
-
-
-
-    .timeline-centered.timeline-sm .timeline-entry .timeline-entry-inner .timeline-label {
-      padding: 1em;
-    }
+.timeline-centered.timeline-sm .timeline-entry .timeline-entry-inner .timeline-label {
+  padding: 1em;
+}
 
   .timeline-centered:before,
   .timeline-centered:after {
