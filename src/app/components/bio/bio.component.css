@@ -38,7 +38,19 @@
   float: right;
   margin: 15px;
 }
+::-webkit-scrollbar {
+  width: 12px;
+}
 
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
 
 .timeline-centered.timeline-sm .timeline-entry .timeline-entry-inner .timeline-label {
   padding: 1em;
