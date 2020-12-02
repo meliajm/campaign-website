@@ -5,10 +5,10 @@
   border: 60px;
   padding: 40px;
   position: center;
-  color: dimgrey;
+  color: white;
   position: -webkit-sticky;
   position: sticky;
-  background-color: #fffaf0;
+  background-color: RGB(64,139,239);
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
@@ -47,13 +47,14 @@
   background: url("src/assets/quince.jpg")fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 15em;
+  padding: 16em;
   font-weight: bold;
 }
 
 .s03 {
   background: url("src/assets/bitmoji.png") left bottom, url("src/assets/backg-paper-4.jpg");
   background-repeat: no-repeat, repeat;
+  padding: 4em 8em 2em;
 }
 .intro {
   margin: 30px;
@@ -63,7 +64,7 @@
   font-family: 'Lucida Sans Grande';
 }
 
-.words h1,h5{
+.intro h1,h5{
   margin: 4%;
   font-weight: bold;
   color: darkblue;
