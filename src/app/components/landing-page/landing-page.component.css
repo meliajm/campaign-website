@@ -52,3 +52,13 @@ ngb-carousel img{
 #s04{
     background-color: RGB(0,45,128);
 }
+
+.card-body{
+    background-color: RGB(0,45,128);
+    color: white;
+}
+
+.btn{
+    background-color: RGB(255,181,49);
+    color: RGB(64,139,239)
+}
