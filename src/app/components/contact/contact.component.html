@@ -1,55 +1,61 @@
-<form class="contact-form">
+<div class="form-control">
+  {{userForm.value | json}}
+</div>
+<div>
+  {{users| json}}
+</div>
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()" class="contact-form">
   <div class="form-row">
     <div class="form-group col-md-4">
       <label for="inputFirstName">First Name/Primer Nombre</label>
-      <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+      <input type="text" class="form-control" formControlName="firstname" id="inputFirstName" placeholder="First Name">
     </div>
     <div class="form-group col-md-4">
       <label for="inputLastName">Last Name/ Apellido</label>
-      <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+      <input type="text" class="form-control" formControlName="lastname" id="inputLastName" placeholder="Last Name">
     </div>
     <div class="form-group col-md-4">
       <label for="inputEmail4">Email/ Correo Electrónico </label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      <input type="email" class="form-control" formControlName="email" id="inputEmail4" placeholder="Email">
     </div>
   </div>
   <div class="form-group">
     <label for="inputAddress">Address/ Dirección</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    <input type="text" class="form-control" formControlName="address1" id="inputAddress" placeholder="1234 Main St">
   </div>
   <div class="form-group">
     <label for="inputAddress2">Address 2/ Dirección2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    <input type="text" class="form-control" formControlName="address2"  id="inputAddress2" placeholder="Apartment, studio, or floor">
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputCity">City/ Ciudad</label>
-      <input type="text" class="form-control" id="inputCity">
+      <input type="text" formControlName="city" class="form-control" id="inputCity">
     </div>
     <div class="form-group col-md-4">
       <label for="inputState">State/ Estado</label>
-      <select id="inputState" class="form-control">
+      <select id="inputState" formControlName="state" class="form-control">
         <option selected>Choose...</option>
         <option>...</option>
       </select>
     </div>
     <div class="form-group col-md-2">
       <label for="inputZip">Zip/ Código Postal</label>
-      <input type="text" class="form-control" id="inputZip">
+      <input type="text" formControlName="zip" class="form-control" id="inputZip">
     </div>
   </div>
   <div class="form-group">
     <label for="exampleFormControlTextarea1">Enter Message to Send to Elizabeth</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <textarea class="form-control" formControlName="message" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
   <div class="form-group">
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <input class="form-check-input" formControlName="receivesNotification" type="checkbox" id="gridCheck">
       <label class="form-check-label" for="gridCheck">
         Interested in receiving emails?
       </label>
       <br />
-      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <input class="form-check-input"  formControlName="canVolunteer" type="checkbox" id="gridCheck">
       <label class="form-check-label" for="gridCheck">
         Interested in volunteering for Elizabeth's Campaign?
       </label>

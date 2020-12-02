@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 export class UserServiceService {
 
   users : User[] = [];
-  url : string = 'https://stormy-lake-54891.herokuapp.com/api/v1/';
+  url : string = 'https://salty-springs-44420.herokuapp.com/api/v1/users';
   constructor(private http : HttpClient) {
 
    }
@@ -19,8 +19,24 @@ export class UserServiceService {
   */
   public newUser(u : User) : Observable<User> {
     let jsonU = JSON.stringify(u);
-    return this.http.post(this.url + '/new', {jsonU}) as Observable<User>;
+    return this.http.post(this.url, jsonU, {  headers : {
+      'Content-Type': 'application/json',
+    'Accept': 'application/json',
+    'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Allow-Origin': '*'
+    }}) as Observable<User>;
   }
 
-  
+  public getUsers() : Observable<User[]>{
+    return this.http.get(this.url,{
+      headers : {
+        'Content-Type': 'application/json',
+      'Accept': 'application/json',
+      'Access-Control-Allow-Headers': 'Content-Type',
+      'Access-Control-Allow-Origin': '*'
+      }
+    }) as Observable<User[]>;
+  }
+
+
 }
