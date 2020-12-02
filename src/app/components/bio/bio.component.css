@@ -52,7 +52,7 @@
 }
 
 .box {
-  background: url("src/assets/bitmoji.png") left bottom, url("src/assets/backg-paper-4.jpg");
+  background: url("src/assets/bitmoji.png") left bottom, url("src/assets/backg-paper-4.jpg") fixed;
   background-repeat: no-repeat, repeat;
 }
 .words {
