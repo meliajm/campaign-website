@@ -1,4 +1,4 @@
-.intro {
+.s02 {
   font-family: 'Lucida Sans';
   font-size: xx-large;
   /*  background-color: RGB(64,139,239);*/
@@ -40,7 +40,7 @@
 * {
   box-sizing: border-box;
 }
-.welcome {
+.s01 {
   color: white;
   position: center;
   text-align:center;
@@ -51,11 +51,11 @@
   font-weight: bold;
 }
 
-.box {
-  background: url("src/assets/bitmoji.png") left bottom, url("src/assets/backg-paper-4.jpg") fixed;
+.s03 {
+  background: url("src/assets/bitmoji.png") left bottom, url("src/assets/backg-paper-4.jpg");
   background-repeat: no-repeat, repeat;
 }
-.words {
+.intro {
   margin: 30px;
   background-color: #ffffff;
   border: 1px solid darkblue;

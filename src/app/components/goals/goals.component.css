@@ -5,7 +5,7 @@
 .issues-welcome {
   color: white;
   position: center;
-  background: url("src/assets/cityHall.jpg") no-repeat top center fixed;
+  background: url("src/assets/cityHall.jpg") no-repeat fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
