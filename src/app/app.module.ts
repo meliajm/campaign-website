@@ -11,6 +11,9 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { GoalsComponent } from './components/goals/goals.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { IssueComponent } from './components/issue/issue.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from "@angular/forms";
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { IssueComponent } from './components/issue/issue.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

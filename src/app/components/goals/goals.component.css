@@ -1,12 +1,51 @@
+* {
+  font-family:  'Lucida Sans Grande';
+}
+
 .issues-welcome {
   color: white;
   position: center;
-  background-image: url("src/assets/berwynTrain.jpg");
+  background: url("src/assets/cityHall.jpg") no-repeat top center fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 15em;
+  font-weight: bold;
+  font-weight: bold;
 }
 .card-deck {
-  padding: 50px;
+  padding: 76px 100px;
+}
+h1 {
+  font-size: 85px;
+  width: 150%;
+  -webkit-text-stroke: .5px DarkGray;
+  text-align:  match-parent;
 }
 
+h5 {
+  text-align: center;
+  text-decoration: solid;
+  font-weight: bold;
+}
+
+.cards {
+  position: sticky;
+}
+
+.blm {
+  background-color: blueviolet;
+  background-image: url("src/assets/BLMmural.jpg");
+  background-position: center;
+  padding: 10em;
+}
+.* {
+  /* The image used */
+  background-image: url("src/assets/BLMmural.jpg");
+  /* Full height */
+  height: 80%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
+  position:relative;
+}
