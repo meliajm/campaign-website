@@ -62,3 +62,8 @@ ngb-carousel img{
     background-color: RGB(255,181,49);
     color: RGB(64,139,239)
 }
+
+#landing{
+    font-family: 'Lucida Sans Grande';
+    font-size: 30px;
+}
