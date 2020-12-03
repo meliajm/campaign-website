@@ -29,14 +29,14 @@
 
 
 .s02 {
-  
-  font-size: xx-large;
+  font-family: 'Lucida Sans Grande';
+  font-size: 40px;
   padding: 4em;
   position: center;
   color: white;
   position: -webkit-sticky;
   position: sticky;
- /* background-color: RGB(64,139,239);*/
+  /* background-color: RGB(64,139,239);*/
 }
 
 #Bio p{
@@ -130,8 +130,8 @@
 .s05 {
 color: white;
 font-family: 'Lucida Sans';
-padding:6em;
-padding-bottom:3em;
+padding:7em;
+padding-bottom:7em;
 }
 
 .s05 h3{
