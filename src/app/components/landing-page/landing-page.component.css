@@ -17,7 +17,7 @@ ngb-carousel img{
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 15px;
-     height: 450px;
+    height: 450px;
 }
 
 #s02{
