@@ -31,7 +31,7 @@
 .s02 {
   font-family: 'Lucida Sans Grande';
   font-size: 40px;
-  padding: 4em;
+  padding: 3.5em;
   position: center;
   color: white;
   position: -webkit-sticky;
@@ -70,7 +70,7 @@
 .s03 {
   /*  background: url("src/assets/bitmoji.png") left bottom, url("src/assets/backg-paper-4.jpg");
   background-repeat: no-repeat, repeat;*/
-  padding: 4em 8em 2em;
+  padding: 4.5em 8em 2em;
   background-color: RGB(64,139,239);
 
 }
@@ -131,19 +131,32 @@
 color: white;
 font-family: 'Lucida Sans';
 padding:7em;
-padding-bottom:7em;
+padding-bottom:10em;
 }
 
-.s05 h3{
-    font-size:60px;
-    text-align:center;
-
-}
+  .s05 h3 {
+    font-size: 60px;
+    text-align: center;
+    color: RGB(255,181,49);
+  }
+  .s05 h4 {
+      font-size:45px;
+      text-align:center;
+  }
 .acc-list {
-    padding:1em;
-    padding-bottom:2em;
-    font-size: 20px;
-    font-display:inherit;
+  padding: 1em;
+  padding-bottom: 2em;
+  font-size: 25px;
+  font-display: inherit;
+  
+}
+
+li {
+  list-style-type: none;
+  background-color: RGB(255,181,49);
+  border-radius: 25px;
+  padding: .7em;
+  margin: 1em;
 }
 .s05 div {
   float: left;
