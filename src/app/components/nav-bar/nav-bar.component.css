@@ -28,6 +28,7 @@ header{
     display: flex;
     align-content: center;
     height: 300px;
+    font-family: 'Lucida Sans Grande';
 }
 header img{
     width: 300px;
