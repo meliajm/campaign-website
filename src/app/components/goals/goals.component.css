@@ -5,11 +5,11 @@
 .issues-welcome {
   color: white;
   position: center;
-  background: url("src/assets/cityHall.jpg") no-repeat top center fixed;
+  background: url("src/assets/cityHall.jpg") no-repeat fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 15em;
+  padding: 18em;
   font-weight: bold;
   font-weight: bold;
 }
@@ -33,6 +33,12 @@ h5 {
   position: sticky;
 }
 
+.card-header {
+  text-align: center;
+  text-decoration: solid;
+  color:white;
+} 
+
 .blm {
   background-color: blueviolet;
   background-image: url("src/assets/BLMmural.jpg");
@@ -49,3 +55,11 @@ h5 {
   background-size: cover;
   position:relative;
 }
+#s02 {
+  padding: 3em 8em 6em;
+}
+#s03 {
+  background-color: RGB(255,181,49);
+  padding: 4em 8em 6em;
+}
+

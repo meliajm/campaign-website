@@ -5,12 +5,9 @@
     "\\src\\app",
     "\\src\\app\\components",
     "\\src\\app\\components\\bio",
-    "\\src\\app\\components\\contact",
-    "\\src\\app\\components\\goals",
-    "\\src\\app\\components\\landing-page",
     "\\src\\app\\components\\nav-bar",
-    "\\src\\assets"
+    "\\src\\assets\\icons"
   ],
-  "SelectedNode": "\\src\\app\\components\\nav-bar\\nav-bar.component.html",
+  "SelectedNode": "\\src\\app\\components\\nav-bar\\nav-bar.component.css",
   "PreviewInSolutionExplorer": false
 }
