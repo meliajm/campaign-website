@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 export class UserServiceService {
 
   users : User[] = [];
-  url : string = 'https://salty-springs-44420.herokuapp.com/api/v1/users';
+  url : string = 'https://desolate-mesa-04505.herokuapp.com/api/v1/users/';
   constructor(private http : HttpClient) {
 
    }
@@ -30,7 +30,7 @@ export class UserServiceService {
   public getUsers() : Observable<User[]>{
     return this.http.get(this.url,{
       headers : {
-        'Content-Type': 'application/json',
+      'Content-Type': 'application/json',
       'Accept': 'application/json',
       'Access-Control-Allow-Headers': 'Content-Type',
       'Access-Control-Allow-Origin': '*'
